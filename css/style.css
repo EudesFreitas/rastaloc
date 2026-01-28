@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #eee;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background: #000;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.btn {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #000, #222);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 0;
+}
+
+.section.dark {
+    background: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 40px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+.footer {
+    background: #000;
+    padding: 60px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+
+/* inicio dos estilos do equipamentos*/
+.equipamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.equipamento-galeria img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.categoria {
+    color: #e50914;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.specs, .lista {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.specs li, .lista li {
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+}
+
+.form {
+    display: grid;
+    gap: 15px;
+}
+
+.form input, .form textarea {
+    padding: 12px;
+    background: #111;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.form textarea {
+    min-height: 120px;
+}
+
