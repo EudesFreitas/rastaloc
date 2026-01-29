@@ -26,6 +26,18 @@ body {
     top: 0;
 }
 
+.titulo {
+    font-size: 3rem;
+    background: linear-gradient(to right,  #e60606 2%, #17f802, #2a2727, #d1f406);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ancora {
+    color: white;
+    text-decoration: none;
+}
+
 .logo h1 {
     color: #fff;
 }
@@ -102,9 +114,10 @@ body {
 }
 
 .footer-copy {
+    font-size: 13px;
     text-align: center;
     margin-top: 30px;
-    color: #777;
+    color: #b0a7a7;
 }
 
 /* inicio dos estilos do equipamentos*/
