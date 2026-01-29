@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #111;
+    /*background-color: #111f; */
+    background-image: linear-gradient(to bottom, #cc1a1a 5%, #129d05, #0c0b0b, #d6f236);
     color: #eee;
     line-height: 1.6;
 }
@@ -48,6 +49,7 @@ body {
 .btn {
     background: #e50914;
     color: #fff;
+    text-decoration: none;
     padding: 10px 16px;
     border-radius: 4px;
 }
@@ -119,7 +121,7 @@ body {
 }
 
 .categoria {
-    color: #e50914;
+    color: #d2d4e4;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -149,4 +151,9 @@ body {
 .form textarea {
     min-height: 120px;
 }
+.form button {
+    justify-self: start;
+    justify-self: center;
+}
+
 
