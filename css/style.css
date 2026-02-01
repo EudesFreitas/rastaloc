@@ -121,6 +121,17 @@ body {
     color: #b0a7a7;
 }
 
+.btn-whatsapp img {
+    width: 50px;
+    padding-top: 20px;
+}
+
+.titul02 {
+    background: linear-gradient(to right,  #e60606 2%, #17f802, #2a2727, #d1f406);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* inicio dos estilos do equipamentos*/
 .equipamento {
     display: grid;
