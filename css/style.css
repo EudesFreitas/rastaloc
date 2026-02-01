@@ -53,10 +53,13 @@ body {
     color: #ccc;
     text-decoration: none;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 .nav a:hover {
-    color: #fff;
+    /*color: #fff; */
+    color: #ff9800;
+    transform: translateY(-3px);
 }
 
 .btn {
@@ -96,10 +99,14 @@ body {
 }
 
 .card {
-    background: #1c1c1c;
+    background: #1c1c1c; 
     padding: 40px;
     text-align: center;
     border-radius: 6px;
+}
+
+.card .ancora:hover {
+    color: #1bf208;
 }
 
 /* FOOTER */
@@ -126,6 +133,12 @@ body {
     padding-top: 20px;
 }
 
+.btn-whatsapp img:hover {
+    transform: translate(-6px, -6px);
+    box-shadow: 5px 5px 10px rgb(174, 164, 164);
+    transition: transform 1s, border 1s;
+}
+
 .titul02 {
     background: linear-gradient(to right,  #e60606 2%, #17f802, #2a2727, #d1f406);
     -webkit-background-clip: text;
@@ -143,6 +156,10 @@ body {
 .equipamento-galeria img {
     width: 100%;
     border-radius: 8px;
+}
+
+.ancora:hover {
+     color: #1bf208;
 }
 
 .categoria {
