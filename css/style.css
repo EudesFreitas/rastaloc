@@ -85,7 +85,12 @@ body {
     height: 70vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, #000, #222);
+    /*background: linear-gradient(to right, #000, #222); */
+    background-image: url('https://zebravisual.pt/wp-content/uploads/2022/07/IMG40.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
 }
 
 .hero h2 {
@@ -99,7 +104,7 @@ body {
 }
 
 .section.dark {
-    background: #000;
+    background: #000; 
 }
 
 .grid {
@@ -117,6 +122,10 @@ body {
 
 .card .ancora:hover {
     color: #1bf208;
+}
+
+#equipa {
+    padding-bottom: 20px;
 }
 
 /* FOOTER */
