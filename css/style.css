@@ -228,6 +228,14 @@ body {
     justify-self: center;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    min-height: 55vh;
+    background-position: center top;
+    background-size: contain; /* imagem cheia aparecendo*/
+}
+}
+
 @media (max-width: 430px) {
   .header .container {
     flex-direction: column;
@@ -248,4 +256,10 @@ body {
   .nav a {
     padding: 0.5rem 0;
   }
+
+  .hero {
+    min-height: 55vh;
+    background-position: center top;
+    background-size: contain; /* imagem cheia aparecendo*/
+}
 }
