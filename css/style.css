@@ -157,7 +157,7 @@ body {
     display: block;
     border: none;
     background: transparent;
-    width: 50px;
+    width: 40px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -173,6 +173,44 @@ body {
     background: linear-gradient(to right,  #e60606 2%, #17f802, #2a2727, #d1f406);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/*configuração do endereço */
+.endereco-mapa {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+/*.pin {
+  transition: transform 0.3s ease;
+}
+
+.endereco-mapa:hover .pin {
+  transform: translateY(-2px) scale(1.05);
+} */
+
+.pin {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* inicio dos estilos do equipamentos*/
