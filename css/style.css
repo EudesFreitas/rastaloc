@@ -5,6 +5,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 body {
     /*background-color: #111f; */
     background-image: linear-gradient(to bottom, #cc1a1a 5%, #129d05, #0c0b0b, #d6f236);
@@ -53,8 +54,14 @@ body {
     -webkit-text-fill-color: transparent;
 
 }
-
+.item-menu {
+  list-style: none;
+}
 .ancora {
+    display: flex;              /* 👈 alinha lado a lado */
+    align-items: center;        /* 👈 centraliza vertical */
+    gap: 8px;                   /* 👈 espaço entre ícone e texto */
+
     font-size: 16px inter, sans-erif;
     color: #cccccc;
     text-decoration: none;
@@ -225,6 +232,8 @@ body {
 }
 
 /* inicio dos estilos do equipamentos*/
+
+
 .equipamento {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -235,6 +244,12 @@ body {
 .equipamento-galeria img {
     width: 100%;
     border-radius: 8px;
+} 
+.ancora img {
+  width: 30px;                /* ajuste fino */
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;             /* não deixa esmagar */
 }
 
 .ancora:hover {
@@ -282,6 +297,8 @@ svg {
   animation: pulse 2s infinite;
 }
 
+
+
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.08); }
@@ -296,6 +313,18 @@ svg {
     background-position: center top;
     background-size: contain; /* imagem cheia aparecendo*/
 }
+.equipamento {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.equipamento-galeria img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 8px;
+}
+
 }
 
 @media (max-width: 430px) {
@@ -324,6 +353,20 @@ svg {
     background-position: center top;
     background-size: contain; /* imagem cheia aparecendo*/
 }
+    .equipamento {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    }
+
+    .equipamento-galeria img {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 8px;
+    }
+
+
+
 }
 
 
