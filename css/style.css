@@ -277,6 +277,19 @@ body {
     justify-self: center;
 }
 
+/* Animação do emogi da lente. pagina cameras*/
+svg {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+
+
 @media (max-width: 768px) {
   .hero {
     min-height: 55vh;
@@ -312,3 +325,6 @@ body {
     background-size: contain; /* imagem cheia aparecendo*/
 }
 }
+
+
+
