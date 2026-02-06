@@ -18,6 +18,16 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 0 1rem;
+
+
+    display: flex;
+    flex-direction: column; /* título em cima */
+    gap: 12px;
+}
+
+.menu {
+  display: flex;          /* 👈 itens lado a lado */
+  gap: 24px;
 }
 
 /* HEADER */
@@ -41,6 +51,7 @@ body {
     background: linear-gradient(to right,  #e60606 2%, #17f802, #2a2727, #d1f406);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 .ancora {
