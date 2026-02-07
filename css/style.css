@@ -268,8 +268,16 @@ body {
 }
 
 .specs li, .lista li {
+    display: flex;
+    align-items: center; /* alinha verticalmente */
+    gap: 8px;            /* espaço entre ícone e texto */
+    list-style: none;
     padding: 8px 0;
     border-bottom: 1px solid #333;
+}
+.specs .icone {
+  font-size: 1.3rem;   /* controla tamanho do emoji */
+  line-height: 1;
 }
 
 .form {
